@@ -6,6 +6,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: #51344D;
 }
 
 #main-nav a:hover{
@@ -19,24 +20,64 @@ header {
     font-family: 'Oswald', sans-serif;
 }
 
+.products__title{
+    color:#4A7B9D;
+    padding-left: 10px;
+}
+
+.mainImage img{
+    width: 97%;
+    height: 950px;
+    padding-left: 10px;
+}
+
+.mainImage{
+    font-size: 50px;
+    color: #989788;
+    padding-left: auto;
+}
+
+
 
 
 /* Middle */
+.middle {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    padding-left: 10px;
+    grid-gap: 20px;
+}
+
+
+.middle img{
+    width:900px;
+}
+
 .products__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
+    padding-left: 10px;
     grid-gap: 20px;
 }
 
 .card img{
-    width: 300px;
+    width: 500px;
+    height: 300px;
+    padding-left: 10px;
 }
+
+
+/* .card{
+    
+} */
 
 
 /* Bottom */
 
-
-
+footer img{
+    width: 100px;
+    padding-left: 10px;
+}
 
 
 
