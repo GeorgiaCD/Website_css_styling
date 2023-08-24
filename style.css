@@ -1,4 +1,44 @@
 /* Body */
+
 /* Top */
+header {
+    background-color: #A78682;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#main-nav a:hover{
+    color: #4A7B9D;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
 /* Middle */
+.products__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 20px;
+}
+
+.card img{
+    width: 300px;
+}
+
+
 /* Bottom */
+
+
+
+
+
+
+/* colour list: #51344D, #989788, #6F5060, #A78682, #E7EBC5
+
