@@ -1,4 +1,8 @@
 /* Body */
+h2{
+    font-size: 25px;
+    padding-left: 10px;
+}
 
 /* Top */
 header {
@@ -8,6 +12,7 @@ header {
     justify-content: space-around;
     color: #51344D;
 }
+
 
 #main-nav a:hover{
     color: #4A7B9D;
@@ -34,24 +39,39 @@ header {
 .mainImage{
     font-size: 50px;
     color: #989788;
-    padding-left: auto;
+    padding-left: 30px;
 }
 
 
 
 
 /* Middle */
+.middle__title{
+    color: #6F5060;
+    padding-left: 50px;
+}
+
 .middle {
+    color: #6F5060;
     display: grid;
     grid-template-columns: 1fr 2fr; 
-    padding-left: 10px;
+    padding-left: 50px;
     grid-gap: 20px;
+    font-size: x-large;
+}
+
+.middle__p{
+    display: flex;
+    justify-content: center; 
+  align-items: center; 
 }
 
 
 .middle img{
-    width:900px;
+    width:850px;
 }
+
+
 
 .products__container {
     display: grid;
@@ -61,7 +81,7 @@ header {
 }
 
 .card img{
-    width: 500px;
+    width: 450px;
     height: 300px;
     padding-left: 10px;
 }
@@ -73,6 +93,12 @@ header {
 
 
 /* Bottom */
+
+footer {
+    background-color: #A78682;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
 
 footer img{
     width: 100px;
